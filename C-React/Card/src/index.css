@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@layer components {
+  .bg-card{
+    background: linear-gradient(#EBE5C2, #4f4b34);
+  }
+
+  .color-icon{
+    color: yellow;
+    filter: drop-shadow(0 0 3px rgba(0,0,0,0.3));
+  }
+}

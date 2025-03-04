@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@layer components{
+  .icon{
+    color: #ef8229;
+  }
+}

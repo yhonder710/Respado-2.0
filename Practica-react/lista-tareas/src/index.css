@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@layer components {
+  .text{
+    color: red;
+    cursor: pointer;
+  }
+
+  .text.is-complete{
+    color: green;
+  }
+
+  .tarea{
+    font-size: 2rem;
+  }
+
+  .tarea.is-complete{
+    text-decoration: line-through;
+  }
+}
